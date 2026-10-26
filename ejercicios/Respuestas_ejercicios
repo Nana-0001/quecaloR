@@ -1,0 +1,35 @@
+Ejercicio 5.5: Respuestas
+
+Todas las preguntas se resuelven en ejercicios/ejercicio_5_5.R
+
+1. Observaciones de temperatura por estación
+NH0098 es la estación con más observaciones (23540) y NH0910 la que menos
+tiene (15506). Las otras tres tienen 16782 (NH0046), 18738 (NH0437) y
+20359 (NH0472).
+
+2. Temperatura mínima y máxima por estación
+NH0098 registra tanto la mínima más baja (-17.4 °C) como la máxima más alta
+(37.4 °C). La estación con la mínima más alta es NH0437 (2.1 °C) y la que
+tiene la máxima más baja es NH0046 (34.6 °C).
+
+3. Promedio y desvío estándar
+El promedio de temperatura de abrigo a 150 cm va de 17.3 °C (NH0046) a
+20.2 °C (NH0437). Los demás son NH0098 (18.6), NH0472 (18.0) y NH0910 (17.7).
+El desvío estándar es parecido en todas (entre 5.77 y 6.12 °C): el más alto
+es NH0910 (6.12) y el más bajo NH0437 (5.77).
+
+4. Proporción de NA
+Todas las estaciones tienen menos del 2 % de datos faltantes. NH0046 tiene
+la mayor proporción (0.0152, es decir 1.5 %) y NH0910 la menor (0.00302, es
+decir 0.3 %). Las otras son NH0437 (1.0 %), NH0098 (0.8 %) y NH0472 (0.3 %).
+
+5. Promedio anual
+Se obtiene un promedio por estación y por año (272 filas en total). Por
+ejemplo, en NH0046 el promedio anual entre 1973 y 1982 estuvo entre 16.3 y
+17.3 °C.
+
+6. Precipitación acumulada mensual
+Se obtiene la precipitación acumulada de cada mes para cada estación (3151
+filas en total). Por ejemplo, en NH0046 en 1973 hubo 90.4 mm en enero, unos
+204 mm en febrero y solo 4 mm en agosto, así que varía mucho de un mes a
+otro.
