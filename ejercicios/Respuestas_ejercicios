@@ -33,3 +33,32 @@ Se obtiene la precipitación acumulada de cada mes para cada estación (3151
 filas en total). Por ejemplo, en NH0046 en 1973 hubo 90.4 mm en enero, unos
 204 mm en febrero y solo 4 mm en agosto, así que varía mucho de un mes a
 otro.
+
+
+Ejercicio 7.4: Respuestas
+
+1. Temperatura de abrigo de la estación NH0437 con regresión lineal
+
+La temperatura media no se mantiene exactamente constante: la recta de
+regresión tiene una pendiente positiva leve. Pasa de aproximadamente 19.7 °C
+a principios de los años 70 a unos 20.7 °C en 2023, es decir, un aumento de
+alrededor de 1 °C en poco más de 50 años. El cambio es pequeño comparado con
+la variación estacional, que se ve en la nube de puntos (entre unos 5 °C y
+35 °C), por lo que la tendencia es gradual. Se observa también un período
+sin datos alrededor de 2013-2014.
+
+2. Promedio mensual de la temperatura de abrigo para cada estación
+
+Todas las estaciones muestran un ciclo estacional muy marcado: el promedio
+mensual de la temperatura de abrigo oscila entre unos 8 °C en los meses
+fríos y unos 28 °C en los cálidos. Las series cubren distintos períodos:
+algunas comienzan antes de 1960 y otras más tarde, y todas llegan hasta
+alrededor de 2023.
+
+3. Relación entre la temperatura de abrigo y la humedad
+
+La recta de regresión tiene una pendiente levemente negativa: a mayor
+humedad, la temperatura de abrigo tiende a ser un poco menor. Sin embargo,
+la nube de puntos es muy ancha y la recta es casi plana comparada con la
+dispersión, por lo que la relación es débil: con la misma humedad se
+observan temperaturas muy distintas.
