@@ -62,3 +62,33 @@ humedad, la temperatura de abrigo tiende a ser un poco menor. Sin embargo,
 la nube de puntos es muy ancha y la recta es casi plana comparada con la
 dispersión, por lo que la relación es débil: con la misma humedad se
 observan temperaturas muy distintas.
+
+Ejercicio 8.4: Respuestas
+
+Pivots
+
+1. Con pivot_longer() se alargó la tabla de promedio y desvío estándar: las
+dos medidas quedaron en la misma columna (valor), con una columna adicional
+(estadistico) que indica de cuál se trata. La tabla pasó a tener 10 filas
+(5 estaciones por 2 estadísticos).
+
+2. Con pivot_wider() se ensanchó el resultado anterior: quedó una columna por
+estación (NH0046, NH0098, NH0437, NH0472, NH0910) y dos filas, una para el
+promedio y otra para el desvío estándar.
+
+Uniones
+
+1. Se leyeron los metadatos (258 estaciones y 11 columnas).
+
+2. La variable clave es id, que está presente con el mismo nombre en los datos
+meteorológicos y en los metadatos.
+
+3. La mejor opción es left_join(), con los datos meteorológicos a la
+izquierda. Permite agregar los metadatos (ubicación, altura, etc.) a cada
+medición sin perder ninguna fila de datos meteorológicos. inner_join()
+descartaría mediciones de estaciones sin metadatos, y full_join() sumaría
+estaciones de los metadatos que no tienen mediciones. Se comprobó que la
+cantidad de filas no cambia después de la unión y que anti_join() no devuelve
+filas.
+La tabla resultante tiene 95681 filas (las mismas que los datos
+meteorológicos) y 45 columnas.
