@@ -7,7 +7,7 @@
 # Devuelve: un gráfico de ggplot2.
 grafico_temperatura_mensual <- function(datos, colores = NULL, titulo = "Temperatura") {
 
-  # Si no se indican colores, se eligen al azar (desafío extra)
+  # Si no se indican colores, se eligen al azar 
   if (is.null(colores)) {
     colores <- sample(colors(), length(unique(datos$id)))
   }
