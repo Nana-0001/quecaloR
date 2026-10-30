@@ -4,16 +4,17 @@ Version: 0.0.0.9000
 Authors@R: 
     person("Ana", "Gomez", , "aeagomez@mail.austral.edu.ar", role = c("aut", "cre"))
     person("Sofia", "Brunelli", , "sbrunelli@mail.austral.edu.ar", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+Description: Funciones para descargar, leer y resumir datos diarios de
+    estaciones meteorológicas del Instituto Nacional de Tecnología
+    Agropecuaria (INTA), y para graficar la temperatura mensual.
+License: MIT + file LICENSE
 Config/roxygen2/version: 8.1.1
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 URL: https://github.com/Nana-0001/quecaloR
 BugReports: https://github.com/Nana-0001/quecaloR/issues
 Depends: 
-    R (>= 3.5)
+    R (>= 4.1.0)
 LazyData: true
 Imports: 
     cli,
