@@ -1,28 +1,26 @@
-# Descarga (si hace falta) y lee los datos de una estación meteorológica.
-# Argumentos:
-#   id_estacion: texto con el id de la estación, por ejemplo "NH0437".
-#   ruta: texto con la ruta donde se guarda el archivo, por ejemplo
-#         "data-raw/NH0437.csv".
-# Devuelve: un data.frame con los datos de la estación.
-leer_estacion <- function(id_estacion, ruta) {
+#' Lee los datos de una estación meteorológica.
+#'
+#' @param id_estacion Identificador de la estación, por ejemplo "NH0437".
+#' @return Un data.frame con los datos de la estación seleccionada.
+#' @export
+leer_estacion <- function(id_estacion) {
 
-  if (!is.character(id_estacion)) {
-    cli::cli_abort(c(
-      "id_estacion debe ser texto, por ejemplo \"NH0437\".",
-      "i" = "La variable ingresada es un {class(id_estacion)[1]}."
-    ))
+  if (!is.character(id_estacion) ||
+      length(id_estacion) != 1 ||
+      is.na(id_estacion) ||
+      trimws(id_estacion) == "") {
+    cli::cli_abort("id_estacion debe ser un identificador válido.")
   }
 
-  if (file.exists(ruta)) {
-    cli::cli_inform("El archivo {ruta} ya existe, solo se lee.")
-  } else {
-    url <- paste0(
-      "https://raw.githubusercontent.com/rse-r/intro-programacion/main/datos/",
-      id_estacion, ".csv"
-    )
-    download.file(url, ruta)
-    cli::cli_inform("Se descargó la estación {id_estacion} en {ruta}.")
+  utils::data(
+    "datos_estaciones",
+    package = "quecaloR",
+    envir = environment()
+  )
+
+  if (!id_estacion %in% unique(datos_estaciones$id)) {
+    cli::cli_abort("No existe la estación {id_estacion}.")
   }
 
-  readr::read_csv(ruta)
+  dplyr::filter(datos_estaciones, .data$id == id_estacion)
 }
