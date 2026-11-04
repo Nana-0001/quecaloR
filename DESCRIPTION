@@ -1,9 +1,9 @@
 Package: quecaloR
-Title: Datos Diarios de Estaciones Meteorológicas del INTA
+Title: Leer y Resumir Datos de Estacion Meteorologica
 Version: 0.0.0.9000
-Authors@R: 
-    person("Ana", "Gomez", , "aeagomez@mail.austral.edu.ar", role = c("aut", "cre"))
-    person("Sofia", "Brunelli", , "sbrunelli@mail.austral.edu.ar", role = c("aut", "cre"))
+Authors@R: c(
+    person("Ana", "Gomez", email = "aeagomez@mail.austral.edu.ar", role = c("aut", "cre")),
+    person("Sofia", "Brunelli", email = "sbrunelli@mail.austral.edu.ar", role = "aut"))
 Description: Funciones para descargar, leer y resumir datos diarios de
     estaciones meteorológicas del Instituto Nacional de Tecnología
     Agropecuaria (INTA), y para graficar la temperatura mensual.
