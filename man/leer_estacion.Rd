@@ -4,7 +4,7 @@
 \alias{leer_estacion}
 \title{Lee los datos de una estación meteorológica}
 \usage{
-leer_estacion(id_estacion)
+leer_estacion(id_estacion, ruta)
 }
 \arguments{
 \item{id_estacion}{Texto con el id de la estación, por ejemplo \code{"NH0437"}.}

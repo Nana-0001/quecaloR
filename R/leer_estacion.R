@@ -15,25 +15,25 @@
 #' ruta <- tempfile(fileext = ".csv")
 #' nh0437 <- leer_estacion("NH0437", ruta)
 #' }
+leer_estacion <- function(id_estacion, ruta) {
 
-leer_estacion <- function(id_estacion) {
-
-  if (!is.character(id_estacion) ||
-      length(id_estacion) != 1 ||
-      is.na(id_estacion) ||
-      trimws(id_estacion) == "") {
-    cli::cli_abort("id_estacion debe ser un identificador válido.")
+  if (!is.character(id_estacion)) {
+    cli::cli_abort(c(
+      "id_estacion debe ser texto, por ejemplo \"NH0437\".",
+      "i" = "La variable ingresada es un {class(id_estacion)[1]}."
+    ))
   }
 
-  utils::data(
-    "datos_estaciones",
-    package = "quecaloR",
-    envir = environment()
-  )
-
-  if (!id_estacion %in% unique(datos_estaciones$id)) {
-    cli::cli_abort("No existe la estación {id_estacion}.")
+  if (file.exists(ruta)) {
+    cli::cli_inform("El archivo {ruta} ya existe, solo se lee.")
+  } else {
+    url <- paste0(
+      "https://raw.githubusercontent.com/rse-r/intro-programacion/main/datos/",
+      id_estacion, ".csv"
+    )
+    download.file(url, ruta)
+    cli::cli_inform("Se descargó la estación {id_estacion} en {ruta}.")
   }
 
-  dplyr::filter(datos_estaciones, .data$id == id_estacion)
+  readr::read_csv(ruta)
 }
