@@ -1,9 +1,17 @@
-# Resume la temperatura de abrigo a 150 cm de una o más estaciones.
-# Argumentos:
-#   datos: data.frame con las columnas id y temperatura_abrigo_150cm
-#          (puede tener una o más estaciones).
-# Devuelve: una tabla en formato largo con el promedio y el desvío estándar
-#           de cada estación.
+#' Resume la temperatura de abrigo a 150 cm
+#'
+#' Calcula el promedio y el desvío estándar de la temperatura de abrigo a
+#' 150 cm de una o más estaciones.
+#'
+#' @param datos Un data.frame con las columnas `id` y
+#'   `temperatura_abrigo_150cm`. Puede tener una o más estaciones.
+#'
+#' @returns Una tabla en formato largo con el promedio y el desvío estándar
+#'   de cada estación.
+#' @export
+#'
+#' @examples
+#' tabla_resumen_temperatura(datos_estaciones)
 tabla_resumen_temperatura <- function(datos) {
 
   if (!is.data.frame(datos)) {
