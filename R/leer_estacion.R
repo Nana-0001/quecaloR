@@ -1,8 +1,21 @@
-#' Lee los datos de una estación meteorológica.
+#' Lee los datos de una estación meteorológica
 #'
-#' @param id_estacion Identificador de la estación, por ejemplo "NH0437".
-#' @return Un data.frame con los datos de la estación seleccionada.
+#' Lee un archivo csv con los datos de una estación del INTA. Si el archivo
+#' no existe en la ruta indicada, lo descarga antes de leerlo.
+#'
+#' @param id_estacion Texto con el id de la estación, por ejemplo `"NH0437"`.
+#' @param ruta Texto con la ruta donde se guarda el archivo, por ejemplo
+#'   `"data-raw/NH0437.csv"`.
+#'
+#' @returns Un data.frame con los datos de la estación.
 #' @export
+#'
+#' @examples
+#' \donttest{
+#' ruta <- tempfile(fileext = ".csv")
+#' nh0437 <- leer_estacion("NH0437", ruta)
+#' }
+
 leer_estacion <- function(id_estacion) {
 
   if (!is.character(id_estacion) ||
