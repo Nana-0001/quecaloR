@@ -1,5 +1,5 @@
 Package: quecaloR
-Title: What the Package Does (One Line, Title Case)
+Title: Datos Diarios de Estaciones Meteorológicas del INTA
 Version: 0.0.0.9000
 Authors@R: 
     person("Ana", "Gomez", , "aeagomez@mail.austral.edu.ar", role = c("aut", "cre"))
