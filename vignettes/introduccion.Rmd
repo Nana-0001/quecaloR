@@ -1,0 +1,107 @@
+---
+title: "Introducción a quecaloR"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Introducción a quecaloR}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(quecaloR)
+```
+
+quecaloR ofrece herramientas para trabajar con datos diarios de estaciones
+meteorológicas del INTA (SIGA). Esta viñeta muestra cómo usar sus funciones y
+el set de datos que incluye.
+
+## Los datos
+
+El paquete trae el set de datos `datos_estaciones`, con datos diarios de cinco
+estaciones identificadas por la columna `id`.
+
+```{r}
+dim(datos_estaciones)
+unique(datos_estaciones$id)
+```
+
+Algunas de las columnas más usadas son la fecha, la temperatura de abrigo a
+150 cm y la precipitación:
+
+```{r}
+head(datos_estaciones[, c("id", "fecha", "temperatura_abrigo_150cm",
+                          "precipitacion_pluviometrica")])
+```
+
+Para ver el detalle de todas las variables, consultá `?datos_estaciones`.
+
+## Resumir la temperatura
+
+`tabla_resumen_temperatura()` calcula el promedio y el desvío estándar de la
+temperatura de abrigo a 150 cm de cada estación.
+
+```{r}
+tabla_resumen_temperatura(datos_estaciones)
+```
+
+El resultado está en formato largo: cada fila es una estación y un estadístico
+(`promedio` o `desvio_estandar`), con su valor en la columna `valor`.
+
+La función también sirve con una sola estación. Para eso basta con
+quedarse con las filas de la estación que interesa:
+
+```{r}
+nh0437 <- datos_estaciones[datos_estaciones$id == "NH0437", ]
+tabla_resumen_temperatura(nh0437)
+```
+
+## Graficar la temperatura mensual
+
+`grafico_temperatura_mensual()` grafica el promedio mensual de la temperatura de
+abrigo a 150 cm, con una línea por estación.
+
+```{r, warning = FALSE}
+grafico_temperatura_mensual(datos_estaciones)
+```
+
+Con el argumento `titulo` se cambia el título, y con `colores` se elige un color
+para cada estación. Si se usa `colores`, tiene que haber uno por estación.
+
+```{r, warning = FALSE}
+grafico_temperatura_mensual(
+  datos_estaciones,
+  colores = c("red", "blue", "darkgreen", "orange", "purple"),
+  titulo = "Temperatura mensual"
+)
+```
+
+También se puede graficar una sola estación:
+
+```{r, warning = FALSE}
+grafico_temperatura_mensual(
+  nh0437,
+  colores = "darkgreen",
+  titulo = "Temperatura mensual en la estación NH0437"
+)
+```
+
+## Leer los datos de una estación
+
+`leer_estacion()` lee el archivo csv de una estación. Si el archivo no existe en
+la ruta indicada, lo descarga antes de leerlo. Necesita conexión a internet la
+primera vez.
+
+```{r, eval = FALSE}
+ruta <- tempfile(fileext = ".csv")
+estacion <- leer_estacion("NH0437", ruta)
+```
+
+La ruta puede ser cualquier lugar donde se quiera guardar el archivo, por
+ejemplo `"data-raw/NH0437.csv"`.
