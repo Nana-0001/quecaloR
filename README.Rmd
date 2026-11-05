@@ -21,10 +21,20 @@ knitr::opts_chunk$set(
 [![Codecov test coverage](https://codecov.io/gh/Nana-0001/quecaloR/graph/badge.svg)](https://app.codecov.io/gh/Nana-0001/quecaloR)
 <!-- badges: end -->
 
-quecaloR permite leer, resumir y graficar datos diarios de estaciones
-meteorológicas del Instituto Nacional de Tecnología Agropecuaria (INTA),
-disponibles a través del Sistema de Información y Gestión Agropecuaria (SIGA).
-El paquete incluye datos de cinco estaciones y funciones para trabajar con ellos.
+¡Te damos la bienvenida! quecaloR es un paquete de R creado por Ana Gomez y
+Sofia Brunelli como trabajo del curso Introducción a la Programación II.
+
+quecaloR ayuda a explorar datos diarios de estaciones meteorológicas del
+Instituto Nacional de Tecnología Agropecuaria (INTA), disponibles a través del
+Sistema de Información y Gestión Agropecuaria (SIGA). Incluye datos de cinco
+estaciones y funciones para resumir la temperatura, graficarla mes a mes y
+descargar los datos de cada estación.
+
+**¿A quién va dirigido?** A cualquier persona que quiera empezar a trabajar
+con datos meteorológicos en R, sin experiencia previa con este tipo de datos.
+
+**¿Por qué existe?** Para reunir en un solo lugar los datos y unas pocas
+funciones que simplifican los primeros pasos de un análisis.
 
 ## Instalación
 
@@ -76,5 +86,7 @@ función (por ejemplo `?tabla_resumen_temperatura`).
 
 ## Cómo contribuir
 
-Si querés contribuir, leé la [guía de contribución](CONTRIBUTING.md) y el
-[código de conducta](CODE_OF_CONDUCT.md).
+Toda ayuda es bienvenida: avisarnos de errores, sugerir mejoras, mejorar la documentación o proponer nuevas funciones. 
+Para contribuir podés leer la [guía de contribución](.github/CONTRIBUTING.md). 
+Al participar en este proyecto aceptás respetar el [código de conducta](CODE_OF_CONDUCT.md).
+Si encontrás un error o tenés una idea, abrí un [issue](https://github.com/Nana-0001/quecaloR/issues) en GitHub.
