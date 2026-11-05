@@ -30,7 +30,7 @@ Un data.frame con los datos de la estación.
 # \donttest{
 ruta <- tempfile(fileext = ".csv")
 nh0437 <- leer_estacion("NH0437", ruta)
-#> Se descargó la estación NH0437 en /tmp/RtmpZ7tMZQ/file1a78ba5b6f7.csv.
+#> Se descargó la estación NH0437 en /tmp/Rtmpq7kVIr/file18aa14948eec.csv.
 #> Warning: One or more parsing issues, call `problems()` on your data frame for details,
 #> e.g.:
 #>   dat <- vroom(...)
