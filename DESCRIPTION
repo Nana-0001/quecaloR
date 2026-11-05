@@ -11,7 +11,7 @@ License: MIT + file LICENSE
 Config/roxygen2/version: 8.1.1
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-URL: https://github.com/Nana-0001/quecaloR
+URL: https://nana-0001.github.io/quecaloR/, https://github.com/Nana-0001/quecaloR
 BugReports: https://github.com/Nana-0001/quecaloR/issues
 Depends: 
     R (>= 4.1.0)
