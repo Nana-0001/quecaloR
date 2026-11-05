@@ -1,4 +1,4 @@
 # License
 
     YEAR: 2026
-    COPYRIGHT HOLDER: quecaloR authors
+    COPYRIGHT HOLDER: Ana Gomez y Sofia Brunelli
