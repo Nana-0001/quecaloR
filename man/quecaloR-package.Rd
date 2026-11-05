@@ -4,13 +4,16 @@
 \name{quecaloR-package}
 \alias{quecaloR}
 \alias{quecaloR-package}
-\title{quecaloR: Leer y Resumir Datos de Estacion Meteorologica}
+\title{quecaloR: Lectura, Resumen y Gráficos de Datos Meteorológicos}
 \description{
+\if{html}{\figure{logo.png}{options: style='float: right' alt='logo' width='120'}}
+
 Funciones para descargar, leer y resumir datos diarios de estaciones meteorológicas del Instituto Nacional de Tecnología Agropecuaria (INTA), y para graficar la temperatura mensual.
 }
 \seealso{
 Useful links:
 \itemize{
+  \item \url{https://nana-0001.github.io/quecaloR/}
   \item \url{https://github.com/Nana-0001/quecaloR}
   \item Report bugs at \url{https://github.com/Nana-0001/quecaloR/issues}
 }

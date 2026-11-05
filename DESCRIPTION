@@ -1,5 +1,6 @@
 Package: quecaloR
-Title: Leer y Resumir Datos de Estacion Meteorologica
+Title: Lectura, Resumen y Gráficos de Datos Meteorológicos
+Language: es
 Version: 0.0.0.9000
 Authors@R: c(
     person("Ana", "Gomez", email = "aeagomez@mail.austral.edu.ar", role = c("aut", "cre")),

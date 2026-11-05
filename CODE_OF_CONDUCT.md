@@ -1,126 +1,133 @@
-# Contributor Covenant Code of Conduct
+# Código de conducta de quecaloR
 
-## Our Pledge
+## Nuestro compromiso
 
-We as members, contributors, and leaders pledge to make participation in our
-community a harassment-free experience for everyone, regardless of age, body
-size, visible or invisible disability, ethnicity, sex characteristics, gender
-identity and expression, level of experience, education, socio-economic status,
-nationality, personal appearance, race, caste, color, religion, or sexual
-identity and orientation.
+Como integrantes, colaboradores y líderes de la comunidad, nos
+comprometemos a que la participación en nuestro proyecto sea una experiencia
+libre de acoso para todas las personas, sin importar su edad, tamaño corporal,
+discapacidad visible o invisible, origen étnico, características sexuales,
+identidad y expresión de género, nivel de experiencia, educación, nivel
+socioeconómico, nacionalidad, apariencia personal, raza, casta, color, religión
+o identidad y orientación sexual.
 
-We pledge to act and interact in ways that contribute to an open, welcoming,
-diverse, inclusive, and healthy community.
+Nos comprometemos a actuar e interactuar de maneras que contribuyan a una
+comunidad abierta, acogedora, diversa, inclusiva y saludable.
 
-## Our Standards
+## Nuestros estándares
 
-Examples of behavior that contributes to a positive environment for our
-community include:
+Ejemplos de comportamientos que contribuyen a un ambiente positivo:
 
-* Demonstrating empathy and kindness toward other people
-* Being respectful of differing opinions, viewpoints, and experiences
-* Giving and gracefully accepting constructive feedback
-* Accepting responsibility and apologizing to those affected by our mistakes,
-  and learning from the experience
-* Focusing on what is best not just for us as individuals, but for the overall
-  community
+* Demostrar empatía y amabilidad hacia las demás personas.
+* Respetar las opiniones, puntos de vista y experiencias diferentes.
+* Dar y recibir con buena disposición comentarios constructivos.
+* Aceptar la responsabilidad y pedir disculpas a quienes se vean afectadas por
+  nuestros errores, y aprender de la experiencia.
+* Priorizar lo que es mejor no solo para cada persona, sino para toda la
+  comunidad.
 
-Examples of unacceptable behavior include:
+Ejemplos de comportamientos inaceptables:
 
-* The use of sexualized language or imagery, and sexual attention or advances of
-  any kind
-* Trolling, insulting or derogatory comments, and personal or political attacks
-* Public or private harassment
-* Publishing others' private information, such as a physical or email address,
-  without their explicit permission
-* Other conduct which could reasonably be considered inappropriate in a
-  professional setting
+* El uso de lenguaje o imágenes sexualizadas, y la atención o los avances
+  sexuales de cualquier tipo.
+* Los comentarios provocadores, insultantes o despectivos, y los ataques
+  personales o políticos.
+* El acoso público o privado.
+* Publicar información privada de otras personas, como una dirección física o
+  de correo electrónico, sin su permiso explícito.
+* Otras conductas que razonablemente puedan considerarse inapropiadas en un
+  entorno profesional.
 
-## Enforcement Responsibilities
+## Responsabilidades de aplicación
 
-Community leaders are responsible for clarifying and enforcing our standards of
-acceptable behavior and will take appropriate and fair corrective action in
-response to any behavior that they deem inappropriate, threatening, offensive,
-or harmful.
+Los líderes de la comunidad son responsables de aclarar y hacer cumplir
+nuestros estándares de comportamiento aceptable, y tomarán medidas correctivas
+apropiadas y justas ante cualquier comportamiento que consideren inapropiado,
+amenazante, ofensivo o dañino.
 
-Community leaders have the right and responsibility to remove, edit, or reject
-comments, commits, code, wiki edits, issues, and other contributions that are
-not aligned to this Code of Conduct, and will communicate reasons for moderation
-decisions when appropriate.
+Los líderes de la comunidad tienen el derecho y la responsabilidad de eliminar,
+editar o rechazar comentarios, commits, código, ediciones de la wiki, issues y
+otras contribuciones que no se alineen con este Código de conducta, y
+comunicarán los motivos de sus decisiones de moderación cuando corresponda.
 
-## Scope
+## Alcance
 
-This Code of Conduct applies within all community spaces, and also applies when
-an individual is officially representing the community in public spaces.
-Examples of representing our community include using an official e-mail address,
-posting via an official social media account, or acting as an appointed
-representative at an online or offline event.
+Este Código de conducta se aplica en todos los espacios de la comunidad, y
+también cuando una persona representa oficialmente a la comunidad en espacios
+públicos. Algunos ejemplos son usar una dirección de correo electrónico
+oficial, publicar a través de una cuenta oficial en redes sociales o actuar
+como representante designada en un evento, ya sea en línea o presencial.
 
-## Enforcement
+## Aplicación
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported to the community leaders responsible for enforcement at sofiabrunelli8@gmail.com. 
-All complaints will be reviewed and investigated promptly and fairly.
+Los casos de comportamiento abusivo, de acoso o inaceptable de cualquier otro
+tipo pueden denunciarse a los líderes de la comunidad responsables de su
+aplicación a través del correo electrónico aeagomez@mail.austral.edu.ar.
+Todas las denuncias serán revisadas e investigadas de manera rápida y justa.
 
-All community leaders are obligated to respect the privacy and security of the
-reporter of any incident.
+Todos los líderes de la comunidad están obligados a respetar la privacidad y
+la seguridad de la persona que denuncia un incidente.
 
-## Enforcement Guidelines
+## Pautas de aplicación
 
-Community leaders will follow these Community Impact Guidelines in determining
-the consequences for any action they deem in violation of this Code of Conduct:
+Los líderes de la comunidad seguirán estas pautas de impacto en la comunidad
+para determinar las consecuencias de cualquier acción que consideren una
+violación de este Código de conducta:
 
-### 1. Correction
+### 1. Corrección
 
-**Community Impact**: Use of inappropriate language or other behavior deemed
-unprofessional or unwelcome in the community.
+**Impacto en la comunidad:** uso de lenguaje inapropiado u otro comportamiento
+considerado poco profesional o no bienvenido en la comunidad.
 
-**Consequence**: A private, written warning from community leaders, providing
-clarity around the nature of the violation and an explanation of why the
-behavior was inappropriate. A public apology may be requested.
+**Consecuencia:** una advertencia privada y por escrito de parte de los líderes
+de la comunidad, que aclare la naturaleza de la violación y explique por qué el
+comportamiento fue inapropiado. Se puede solicitar una disculpa pública.
 
-### 2. Warning
+### 2. Advertencia
 
-**Community Impact**: A violation through a single incident or series of
-actions.
+**Impacto en la comunidad:** una violación a través de un único incidente o de
+una serie de acciones.
 
-**Consequence**: A warning with consequences for continued behavior. No
-interaction with the people involved, including unsolicited interaction with
-those enforcing the Code of Conduct, for a specified period of time. This
-includes avoiding interactions in community spaces as well as external channels
-like social media. Violating these terms may lead to a temporary or permanent
-ban.
+**Consecuencia:** una advertencia con consecuencias si el comportamiento
+continúa. No se permite la interacción con las personas involucradas, incluida
+la interacción no solicitada con quienes aplican el Código de conducta, durante
+un período de tiempo determinado. Esto incluye evitar interacciones en los
+espacios de la comunidad y en canales externos como las redes sociales. El
+incumplimiento de estos términos puede llevar a una prohibición temporal o
+permanente.
 
-### 3. Temporary Ban
+### 3. Prohibición temporal
 
-**Community Impact**: A serious violation of community standards, including
-sustained inappropriate behavior.
+**Impacto en la comunidad:** una violación grave de los estándares de la
+comunidad, incluido el comportamiento inapropiado sostenido.
 
-**Consequence**: A temporary ban from any sort of interaction or public
-communication with the community for a specified period of time. No public or
-private interaction with the people involved, including unsolicited interaction
-with those enforcing the Code of Conduct, is allowed during this period.
-Violating these terms may lead to a permanent ban.
+**Consecuencia:** una prohibición temporal de cualquier tipo de interacción o
+comunicación pública con la comunidad durante un período de tiempo determinado.
+Durante este período no se permite ninguna interacción pública ni privada con
+las personas involucradas, incluida la interacción no solicitada con quienes
+aplican el Código de conducta. El incumplimiento de estos términos puede llevar
+a una prohibición permanente.
 
-### 4. Permanent Ban
+### 4. Prohibición permanente
 
-**Community Impact**: Demonstrating a pattern of violation of community
-standards, including sustained inappropriate behavior, harassment of an
-individual, or aggression toward or disparagement of classes of individuals.
+**Impacto en la comunidad:** mostrar un patrón de violación de los estándares
+de la comunidad, incluido el comportamiento inapropiado sostenido, el acoso a
+una persona o la agresión o el menosprecio hacia grupos de personas.
 
-**Consequence**: A permanent ban from any sort of public interaction within the
-community.
+**Consecuencia:** una prohibición permanente de cualquier tipo de interacción
+pública dentro de la comunidad.
 
-## Attribution
+## Atribución
 
-This Code of Conduct is adapted from the [Contributor Covenant][homepage],
-version 2.1, available at
+Este Código de conducta está adaptado del [Contributor Covenant][homepage],
+versión 2.1, disponible en
 <https://www.contributor-covenant.org/version/2/1/code_of_conduct.html>.
 
-Community Impact Guidelines were inspired by
-[Mozilla's code of conduct enforcement ladder][https://github.com/mozilla/inclusion].
+Las pautas de impacto en la comunidad se inspiraron en la
+[escalera de aplicación del código de conducta de Mozilla][Mozilla CoC].
 
-For answers to common questions about this code of conduct, see the FAQ at
-<https://www.contributor-covenant.org/faq>. Translations are available at <https://www.contributor-covenant.org/translations>.
+Para consultar las preguntas frecuentes sobre este código de conducta, visitá
+<https://www.contributor-covenant.org/faq>. Hay traducciones disponibles en
+<https://www.contributor-covenant.org/translations>.
 
 [homepage]: https://www.contributor-covenant.org
+[Mozilla CoC]: https://github.com/mozilla/diversity
