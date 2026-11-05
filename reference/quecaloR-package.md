@@ -1,4 +1,4 @@
-# quecaloR: Leer y Resumir Datos de Estacion Meteorologica
+# quecaloR: Lectura, Resumen y Gráficos de Datos Meteorológicos
 
 Funciones para descargar, leer y resumir datos diarios de estaciones
 meteorológicas del Instituto Nacional de Tecnología Agropecuaria (INTA),
@@ -7,6 +7,8 @@ y para graficar la temperatura mensual.
 ## See also
 
 Useful links:
+
+- <https://nana-0001.github.io/quecaloR/>
 
 - <https://github.com/Nana-0001/quecaloR>
 

@@ -11,12 +11,12 @@
 Source:
 [`DESCRIPTION`](https://github.com/Nana-0001/quecaloR/blob/master/DESCRIPTION)
 
-Gomez A, Brunelli S (2026). *quecaloR: Leer y Resumir Datos de Estacion
-Meteorologica*. R package version 0.0.0.9000,
+Gomez A, Brunelli S (2026). *quecaloR: Lectura, Resumen y Gráficos de
+Datos Meteorológicos*. R package version 0.0.0.9000,
 <https://nana-0001.github.io/quecaloR/>.
 
     @Manual{,
-      title = {quecaloR: Leer y Resumir Datos de Estacion Meteorologica},
+      title = {quecaloR: Lectura, Resumen y Gráficos de Datos Meteorológicos},
       author = {Ana Gomez and Sofia Brunelli},
       year = {2026},
       note = {R package version 0.0.0.9000},
