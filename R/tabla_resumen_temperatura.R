@@ -26,15 +26,15 @@ tabla_resumen_temperatura <- function(datos) {
   }
 
   resumen <- datos |>
-    dplyr::group_by(id) |>
+    dplyr::group_by(.data$id) |>
     dplyr::summarise(
-      promedio = mean(temperatura_abrigo_150cm, na.rm = TRUE),
-      desvio_estandar = stats::sd(temperatura_abrigo_150cm, na.rm = TRUE)
+      promedio = mean(.data$temperatura_abrigo_150cm, na.rm = TRUE),
+      desvio_estandar = stats::sd(.data$temperatura_abrigo_150cm, na.rm = TRUE)
     )
 
   tidyr::pivot_longer(
     resumen,
-    cols = c(promedio, desvio_estandar),
+    cols = c("promedio", "desvio_estandar"),
     names_to = "estadistico",
     values_to = "valor"
   )

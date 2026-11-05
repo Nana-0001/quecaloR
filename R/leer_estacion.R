@@ -31,8 +31,8 @@ leer_estacion <- function(id_estacion, ruta) {
       "https://raw.githubusercontent.com/rse-r/intro-programacion/main/datos/",
       id_estacion, ".csv"
     )
-    download.file(url, ruta)
-    cli::cli_inform("Se descargó la estación {id_estacion} en {ruta}.")
+    utils::download.file(url, ruta)
+    cli::cli_inform("Se descarg\u00f3 la estaci\u00f3n {id_estacion} en {ruta}.")
   }
 
   readr::read_csv(ruta)

@@ -11,7 +11,7 @@ grafico_temperatura_mensual(datos, colores = NULL, titulo = "Temperatura")
 \code{temperatura_abrigo_150cm}. Puede tener una o más estaciones.}
 
 \item{colores}{Un vector de colores, uno por estación, por ejemplo
-\code{c("red", "blue")}. Si es \code{NULL}, se eligen al azar.}
+\code{c("red", "blue")}. Si es \code{NULL}, se usa la paleta por defecto de ggplot2.}
 
 \item{titulo}{Texto con el título del gráfico. Por defecto, \code{"Temperatura"}.}
 }
