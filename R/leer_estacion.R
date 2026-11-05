@@ -32,6 +32,7 @@ leer_estacion <- function(id_estacion, ruta) {
       id_estacion, ".csv"
     )
     utils::download.file(url, ruta)
+    dir.create(dirname(ruta), showWarnings = FALSE, recursive = TRUE)
     cli::cli_inform("Se descarg\u00f3 la estaci\u00f3n {id_estacion} en {ruta}.")
   }
 
